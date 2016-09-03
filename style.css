@@ -1,0 +1,121 @@
+/* Wrapper */
+#wrapper{
+  min-width: 300px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0px 0px 3px #ef6c00;
+  background-color: #ffe0b2;
+}
+
+/* Header section */
+#head{
+  background-color:  #ff9800;
+  background: linear-gradient(#ff9800, #fb8c00, #ff9800);
+  width: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0px 0px 1px #ef6c00;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  box-shadow: 0px 3px 3px #ef6c00;
+}
+
+/* Middle section */
+#middle{
+  background-color: #ffe0b2;
+  padding-bottom: 20px;
+}
+
+/* Middle: Circle section */
+#circle-section{
+  width: 210px;
+  height: 210px;
+  margin: auto;
+  position: relative;
+  top: -30px;
+}
+#circle-bottom{
+  width: 210px;
+  height: 210px;
+}
+#circle-top{
+  width: 210px;
+  height: 210px;
+  position: relative;
+  top: -215px;  
+}
+#time{
+  text-align: center;
+  position: relative;
+  top: 150px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+#time .glyphicon{
+  font-size: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  cursor: pointer;
+  z-index: 2;
+}
+#state{
+  text-align: center;
+  margin-top: 90px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;  
+  margin-bottom: 30px;
+}
+
+/* Bottom section */
+#foot{
+  background-color: #ffe0b2;
+  padding-bottom: 50px;
+}
+.btn-setting{
+  width: 50%;
+  float: left;
+  background-color: #ffcc80;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: background-color 1s linear;
+}
+.btn-setting:hover{
+  background-color: #ffcf9a;
+}
+.btn-setting .plus, .btn-setting .minus{
+  /*background-color: #ccc;*/
+  cursor: pointer;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
+.btn-setting .plus:hover, .btn-setting .minus:hover{
+  color: #e65100;
+}
+
+.btn-setting span:last-child{
+  position: relative;
+  top: 5px;
+  font-size: 12px;
+}
+.btn-setting span:nth-child(2){
+  width: 50px;
+  /*background: black;*/
+}
+
+hr{
+  width: 90%;
+  margin: auto;
+  border: none;
+  border-top: 1px solid #ff3d00;
+}
+
+
+#top-margin{
+  height: 50px;
+}
